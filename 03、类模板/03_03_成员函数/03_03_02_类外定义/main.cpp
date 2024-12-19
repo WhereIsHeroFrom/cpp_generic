@@ -10,7 +10,7 @@ public:
     DynamicArray(int n);
     ~DynamicArray();
     T& operator[](int index);
-    void update(int index, T value);   // ¸üĞÂµÚ index ¸öË÷ÒıµÄÔªËØ£¬°ÑËüµÄÖµ¸Ä³É value
+    void update(int index, T value);   // æ›´æ–°ç¬¬ index ä¸ªç´¢å¼•çš„å…ƒç´ ï¼ŒæŠŠå®ƒçš„å€¼æ”¹æˆ value
 };
 
 template<class T>

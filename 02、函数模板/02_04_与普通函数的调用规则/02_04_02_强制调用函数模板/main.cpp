@@ -2,14 +2,14 @@
 using namespace std;
 
 int add(int a, int b) {
-    cout << "µ÷ÓÃÆÕÍ¨º¯Êı" << endl;
+    cout << "è°ƒç”¨æ™®é€šå‡½æ•°" << endl;
     int c = a + b;
     return c;
 }
 
 template<typename T>
 T add(T a, T b) {
-    cout << "µ÷ÓÃº¯ÊıÄ£°å" << endl;
+    cout << "è°ƒç”¨å‡½æ•°æ¨¡æ¿" << endl;
     T c = a + b;
     return c;
 }

@@ -26,7 +26,7 @@ int main() {
     double cc = addDouble(aa, bb);
     cout << cc << endl;
 
-    // 显式指定类型
+    // 鏄惧紡鎸囧畾绫诲瀷
     c = add<int>(a, b);
     cout << c << endl;
 

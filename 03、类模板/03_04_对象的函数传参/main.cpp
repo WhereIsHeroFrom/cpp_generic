@@ -13,18 +13,18 @@ private:
     HpType m_hp;
 };
 
-// 1¡¢Ö±½ÓÖ¸¶¨ÀàĞÍ
+// 1ã€ç›´æ¥æŒ‡å®šç±»å‹
 void test1(Hero<string, double>& h) {
 
 }
 
-// 2¡¢²ÎÊıÄ£°å»¯
+// 2ã€å‚æ•°æ¨¡æ¿åŒ–
 template<typename T1, typename T2>
 void test2(Hero<T1, T2>& h) {
 
 }
 
-// 3¡¢ÀàÄ£°å»¯
+// 3ã€ç±»æ¨¡æ¿åŒ–
 template<typename T>
 void test3(T& h) {
 
@@ -32,7 +32,7 @@ void test3(T& h) {
 
 
 int main() {
-    Hero<string, double> h("ËÎ½­", 100.0);
+    Hero<string, double> h("å®‹æ±Ÿ", 100.0);
     test1(h);
     test2(h);
     test3(h);

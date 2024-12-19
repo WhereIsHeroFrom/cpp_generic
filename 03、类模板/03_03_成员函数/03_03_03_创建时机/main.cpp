@@ -5,14 +5,14 @@ using namespace std;
 class Player {
 public:
     void run() {
-        cout << "ÅÜ²½" << endl;
+        cout << "Ã…ÃœÂ²Â½" << endl;
     }
 };
 
 class Ball {
 public:
     void drop() {
-        cout << "ÏÂÂä" << endl;
+        cout << "ÃÃ‚Ã‚Ã¤" << endl;
     }
 };
 

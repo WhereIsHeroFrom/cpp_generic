@@ -16,7 +16,7 @@ public:
     T& operator[](int index) {
         return elements[index];
     }
-    // ¸üĞÂµÚ index ¸öË÷ÒıµÄÔªËØ£¬°ÑËüµÄÖµ¸Ä³É value
+    // æ›´æ–°ç¬¬ index ä¸ªç´¢å¼•çš„å…ƒç´ ï¼ŒæŠŠå®ƒçš„å€¼æ”¹æˆ value
     void update(int index, T value) {
         elements[index] = value;
     }

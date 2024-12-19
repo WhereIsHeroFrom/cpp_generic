@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-// º¯ÊıÄ£°å
+// å‡½æ•°æ¨¡æ¿
 /*
 
 template<typename T>
-º¯ÊıµÄ¶¨Òå
+å‡½æ•°çš„å®šä¹‰
 */
 
 int addInt(int a, int b) {
